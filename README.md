@@ -1,31 +1,51 @@
-# Create React App
+![Screenshot 1](./screenshots/Screenshot-2.png)
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+# Visualization of Sorting Algorithms
 
-## Deploy Your Own
+A website that is a visualizer of over 30 unique sorting algorithms, allowing for custom delay time and input array size. Its purpose is to be a handy tool for learning the concept of sorting algorithms, as well as to highlight the fact that, in computer science, such rudimentary task as sorting an array can be performed in so many different ways.
 
-Deploy your own Create React App project with Vercel.
+## Demo
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+![Screenshot 2](./screenshots/Screenshot-1.png)
 
-_Live Example: https://create-react-template.vercel.app/_
+## Technologies
 
-## Available Scripts
+#### Main
 
-In the project directory, you can run:
+-   **React**
+-   **Redux** (with react-redux)
+-   **Styled Components**
 
-### `npm start`
+#### Other
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   **Material UI** (icons and slider component)
+-   **Framer Motion** (animating responsive sidebars and modals)
+-   **react-animate-height** (animating collapsable list elements)
+-   **react-code-blocks** (code snippet component in descriptions)
+-   **Create React App** (initial project template)
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+## Run Locally
 
-### `npm test`
+Clone the project
 
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  git clone https://github.com/KushajveerSingh/sort_visualizer
+```
 
-### `npm run build`
+Go to the project directory
 
-Builds the app for production to the `build` folder.
+```bash
+  cd sort_visualizer
+```
 
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
