@@ -2,7 +2,9 @@
 
 # Visualization of Sorting Algorithms
 
-A website that is a visualizer of over 30 unique sorting algorithms, allowing for custom delay time and input array size. Its purpose is to be a handy tool for learning the concept of sorting algorithms, as well as to highlight the fact that, in computer science, such rudimentary task as sorting an array can be performed in so many different ways.
+- Developed a comprehensive sorting algorithm visualizer website featuring over 30 unique algorithms, built using React, Redux, and Styled Components to facilitate learning and understanding of various sorting concepts.
+- Integrated Material UI, Framer Motion, react-animate-height, and react-code-blocks to enhance user experience with interactive icons, sliders, responsive sidebars, modals, and collapsible list elements.
+- Utilized Create React App for initial project template, allowing for rapid development and customization of the educational tool to provide custom delay times and input array sizes for an optimized learning experience.
 
 ## Demo
 
